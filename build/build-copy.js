@@ -13,7 +13,7 @@ copying.start()
 
 let folderList = fs.readdirSync(path.resolve(rootPath, 'src'))
 folderList.forEach((item, index) => {
-  copy(`src/*.js`, config.assetsRoot, function (err, files) {
+  copy(`src/utils/*.js`, config.assetsRoot, function (err, files) {
     if (err) throw err;
     if (index === folderList.length - 1) {
       console.log(chalk.cyan('  Copy complete.\n'))

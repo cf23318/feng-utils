@@ -1,16 +1,15 @@
 {
-  "name": "utils",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "futils",
+  "version": "0.0.1",
+  "description": "前端业务代码工具库",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "",
     "build": "node build/build.js",
     "doc": "jsdoc -c build/doc-conf.json",
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "feng",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
