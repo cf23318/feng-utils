@@ -10,6 +10,7 @@ const onceInTimeStorege = localforage.createInstance({
 /**
  * 传入唯一名称和时间，判断是否可进行调用。
  *
+ * @author feng
  * @since 0.0.1
  * @param {String} name 不重复的名称，用来判断时间是否允许调用
  * @param {String} time 间隔时间  1d、24h、60m、60s
