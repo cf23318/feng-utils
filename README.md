@@ -1,6 +1,8 @@
 # utils
 
+```
 npm i -S feng-utils
+```
 
 注释规则 详见：
 http://www.css88.com/doc/jsdoc/tags-access.html
