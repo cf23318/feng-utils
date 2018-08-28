@@ -4,7 +4,7 @@
  */
 let moduleExports = {};
 
-const r = require.context('./', true, /^.+\.js$/);
+const r = require.context('./utils', true, /^.+\.js$/);
 r.keys().forEach(key => {
   let attr = key.substring(key.lastIndexOf('/') + 1, key.lastIndexOf('.'));
   // 这里的default读取默认到处的default

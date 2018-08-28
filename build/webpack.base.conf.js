@@ -3,16 +3,15 @@ const webpack = require('webpack')
 const config = require('../config')
 
 const rootPath = path.resolve(__dirname, '../')
-let args = process.argv.slice(2)[0];
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
 module.exports = {
-  entry: path.resolve(rootPath, `src/${args}`),
+  entry: path.resolve(rootPath, `src/main.js`),
   output: {
-    path: `${config.assetsRoot}/${args}`,
+    path: config.assetsRoot,
     filename: `utils.js`,
     publicPath: config.assetsPublicPath,
     library: `utils`,
